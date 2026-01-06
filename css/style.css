@@ -130,7 +130,11 @@ p {
 
 img {
   max-width: 100%;
-  height: auto; }
+  height: auto; 
+}
+.home-img {
+    width: 170px !important;
+}
 
 h1 a,
 h2 a,
@@ -10236,4 +10240,9 @@ ul.children {
 /*# sourceMappingURL=style.css.map */
 
 
+/* my styles  */
 
+.text-number{
+  font-size: 32px;
+  font-weight: 600;
+}
