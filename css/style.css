@@ -10246,3 +10246,77 @@ ul.children {
   font-size: 32px;
   font-weight: 600;
 }
+
+/* ==============================
+   SAHAARA HERO SLIDER (FIXED)
+============================== */
+
+.sahaara-hero-slider {
+  position: relative;
+  min-height: 100vh; /* IMPORTANT */
+  overflow: hidden;
+}
+
+/* Carousel must define height */
+.sahaara-hero-slider .carousel,
+.sahaara-hero-slider .carousel-inner,
+.sahaara-hero-slider .carousel-item,
+.sahaara-hero-slider img {
+  height: 100vh;
+}
+
+.sahaara-hero-slider img {
+  object-fit: cover;
+}
+
+/* Overlay */
+.sahaara-hero-slider .slider-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 2;
+}
+
+/* Content */
+.sahaara-hero-slider .slider-content-wrapper {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+}
+
+/* Force text colors */
+.sahaara-hero-slider .te-slider-content,
+.sahaara-hero-slider .te-slider-content * {
+  color: #ffffff;
+}
+
+.sahaara-hero-slider .te-slider-short-title {
+  color: #e93302;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.sahaara-hero-slider .te-slider-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.sahaara-hero-slider .te-slider-short-desc {
+  font-size: 18px;
+  opacity: 0.95;
+}
+
+/* Mobile fix */
+@media (max-width: 768px) {
+  .sahaara-hero-slider,
+  .sahaara-hero-slider .carousel-item,
+  .sahaara-hero-slider img {
+    height: 70vh;
+  }
+
+  .sahaara-hero-slider .te-slider-title {
+    font-size: 28px;
+  }
+}
