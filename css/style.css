@@ -10307,6 +10307,9 @@ ul.children {
   font-size: 18px;
   opacity: 0.95;
 }
+.mobile-img{
+  display: none;
+}
 
 /* Mobile fix */
 @media (max-width: 768px) {
@@ -10320,11 +10323,18 @@ ul.children {
     font-size: 28px;
   }
 }
+
 @media(max-width: 480px) {
 .sahaara-hero-slider, .sahaara-hero-slider .carousel-item, .sahaara-hero-slider img{
   height: 100vh;
 }
 .counter-up-area{
   margin-top: 50px;
+}
+.mobile-img{
+  display: block;
+}
+.web-img{
+  display: none !important;
 }
 }
