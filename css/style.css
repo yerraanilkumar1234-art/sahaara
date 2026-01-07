@@ -10320,3 +10320,11 @@ ul.children {
     font-size: 28px;
   }
 }
+@media(max-width: 480px) {
+.sahaara-hero-slider, .sahaara-hero-slider .carousel-item, .sahaara-hero-slider img{
+  height: 100vh;
+}
+.counter-up-area{
+  margin-top: 50px;
+}
+}
