@@ -13664,6 +13664,13 @@ ul.children {
   font-weight: 600;
 }
 
+.header-call-whats{
+    background-color: #EB3300;
+    padding: 10px !important;
+    border-radius: 5px;
+}
+
+
 /* ==============================
    SAHAARA HERO SLIDER (FIXED)
 ============================== */
