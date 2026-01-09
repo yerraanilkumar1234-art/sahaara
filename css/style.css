@@ -13750,6 +13750,7 @@ ul.children {
   .sahaara-hero-slider .carousel-item,
   .sahaara-hero-slider img {
     height: 100vh;
+    object-fit: fill;
   }
 
   .counter-up-area {
