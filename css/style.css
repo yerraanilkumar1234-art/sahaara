@@ -13670,7 +13670,7 @@ ul.children {
 
 .sahaara-hero-slider {
   position: relative;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   /* IMPORTANT */
   overflow: hidden;
 }
@@ -13693,6 +13693,7 @@ ul.children {
   inset: 0;
   background: rgba(0, 0, 0, 0.55);
   z-index: 2;
+
 }
 
 /* Content */
@@ -13749,9 +13750,13 @@ ul.children {
   .sahaara-hero-slider,
   .sahaara-hero-slider .carousel-item,
   .sahaara-hero-slider img {
-    height: 100vh;
+    height: 65vh;
     object-fit: fill;
   }
+  .sahaara-hero-slider .slider-overlay
+{
+  height: 65vh;
+}
 
   .counter-up-area {
     margin-top: 50px;
