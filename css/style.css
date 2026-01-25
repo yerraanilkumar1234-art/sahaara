@@ -13669,7 +13669,10 @@ ul.children {
     padding: 10px !important;
     border-radius: 5px;
 }
-
+.blog-details-div p{
+  margin-bottom: 5px !important;
+  margin-top: 5px !important;
+}
 
 /* ==============================
    SAHAARA HERO SLIDER (FIXED)
