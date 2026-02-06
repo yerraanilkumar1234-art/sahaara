@@ -8714,6 +8714,15 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
+.breadcrumb-list.service-call-whats ul li:before {
+  content: "" !important;
+  font-size: 12px;
+  color: #fff;
+  font-family: "Font Awesome 6 Pro";
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
 
 .breadcrumb-list ul li:first-child:before {
   display: none;
